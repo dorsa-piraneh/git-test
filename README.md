@@ -1,7 +1,10 @@
 # TodoList
----
 A modern **Todo List** application built with **HTML, CSS, and JavaScript**.  
 This project allows users to manage their tasks efficiently with a user-friendly interface and multiple features.
+
+## Screenshots
+
+![TodoList Screenshot](./assets/images/Screenshot.png)
 
 ## Features
 
@@ -29,11 +32,6 @@ This project allows users to manage their tasks efficiently with a user-friendly
 
 3. Start adding, editing, or managing your tasks.
 
-
-## Screenshots
-
-![TodoList Screenshot](./assets/images/Screenshot.png)
-
 ## Technologies Used
 
 - HTML5
@@ -42,8 +40,5 @@ This project allows users to manage their tasks efficiently with a user-friendly
 - SweetAlert2
 - FontAwesome Icons
 - LocalStorage API
-
-
-
 
 
