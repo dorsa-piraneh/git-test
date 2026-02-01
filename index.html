@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+
+    <!-- Sweet Alert 2 CSS -->
+    <link rel="stylesheet" href="./assets/libs/sweetalert2/sweetalert2.css" />
+
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="./assets/icons/FontAwesome/css/all.css">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <section class="todo-container">
+      <div class="todo-box">
+        <div class="todo-header">
+          <h1 class="todo-title">لیست انجام کارها</h1>
+        </div>
+
+        <!-- Search & Sort -->
+        <div class="todo-controls">
+          <!-- Search -->
+          <div class="todo-search">
+            <input type="search" name="search-todo" id="searchTodoInput" class="search-input" placeholder="جستجو ..." />
+            <span class="search-icon">
+              <i class="fa-light fa-magnifying-glass"></i>
+            </span>
+          </div>
+
+          <!-- Sort -->
+          <div class="filter-section">
+            <button type="button" class="filter-btn">
+              <span class="filter-label" data-value="all">همه</span>
+              <span class="filter-icon">
+                <i class="fa-regular fa-chevron-down"></i>
+              </span>
+            </button>
+            <ul class="sort-menu">
+              <li>
+                <button type="button" class="sort-btn" value="all">همه</button>
+              </li>
+              <li>
+                <button type="button" class="sort-btn" value="completed">انجام شده</button>
+              </li>
+              <li>
+                <button type="button" class="sort-btn" value="pending">انجام نشده</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tasks List -->
+        <div class="todo-list">
+          <!-- Loaded by Javascript -->
+        </div>
+
+        <!-- Add todo button -->
+        <button type="button" id="addTodoBtn" class="add-todo-btn">
+         <i class="fa-light fa-plus"></i>
+        </button>
+
+        <!-- Change theme button -->
+        <button type="button" class="change-theme-btn" id="changeThemeBtn">
+          <i class="fa-light fa-palette"></i>
+        </button>
+      </div>
+
+      <!-- Color palette -->
+      <div class="themes">
+        <button class="theme-btn" data-theme="default"></button>
+        <button class="theme-btn" data-theme="orange"></button>
+        <button class="theme-btn" data-theme="midnight"></button>
+        <button class="theme-btn" data-theme="pink"></button>
+        <button class="theme-btn" data-theme="lightBlue"></button>
+        <button class="theme-btn" data-theme="red"></button>
+        <button class="theme-btn" data-theme="darkMagenta"></button>
+        <button class="theme-btn" data-theme="green"></button>
+        <button class="theme-btn" data-theme="brown"></button>
+        <button class="theme-btn" data-theme="amber"></button>
+      </div>
+    </section>
+
+    <!-- Add/Edit Modal -->
+    <section class="modal" id="formModal">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2 class="modal-title"></h2>
+          <button class="close-x-btn">
+            <i class="fa-regular fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input type="text" name="modal-input" id="modalInput" class="modal-input" placeholder="عنوان تسک ..." />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="modal-btn confirm-btn" id="confirmSaveBtn">ذخیره</button>
+          <button type="button" class="modal-btn cancel-btn">انصراف</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Delete Modal -->
+    <section class="modal" id="deleteModal">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2 class="modal-title"></h2>
+          <button class="close-x-btn">
+            <i class="fa-regular fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-desc">آیا از حذف این تسک اطمینان دارید؟</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="modal-btn remove-btn" id="confirmDeleteBtn">حذف</button>
+          <button type="button" class="modal-btn cancel-btn">انصراف</button>
+        </div>
+      </div>
+    </section>
+
+    
+
+       <!-- Sweet Alert 2 JS -->
+    <script src="./assets/libs/sweetalert2/sweetalert2@11.js"></script>
+
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
