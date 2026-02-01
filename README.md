@@ -52,9 +52,12 @@ Then open `index.html` in your browser.
 - FontAwesome Icons
 - LocalStorage API
 
-
 ## Author
-[Dorsa Piraneh](https://github.com/dorsa-piraneh)
+
+**Dorsa Piraneh**  
+Frontend Developer (Entry-Level)  
+GitHub: https://github.com/dorsa-piraneh
+
 
 
 
