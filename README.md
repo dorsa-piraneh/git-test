@@ -32,7 +32,7 @@ This project allows users to manage their tasks efficiently with a user-friendly
 
 ## Screenshots
 
-![TodoList Screenshot](./assets/images/screenshot.png)
+![TodoList Screenshot](./assets/images/Screenshot.png)
 
 ## Technologies Used
 
@@ -43,7 +43,6 @@ This project allows users to manage their tasks efficiently with a user-friendly
 - FontAwesome Icons
 - LocalStorage API
 
-![Static Badge](https://img.shields.io/badge/:badgeContent)
 
 
 
