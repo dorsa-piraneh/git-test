@@ -54,7 +54,7 @@ Then open `index.html` in your browser.
 
 
 ## Author
-Dorsa Piraneh
+<p>Dorsa Piraneh</p>
 [GitHub](https://github.com/dorsa-piraneh)
 
 
