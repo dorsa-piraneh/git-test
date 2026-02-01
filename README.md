@@ -8,13 +8,11 @@ This project helps users manage their daily tasks with a clean UI and useful fea
 🔗 **View Online:**  
 https://dorsa-piraneh.github.io/git-test/
 
----
 
 ## Screenshots
 
 ![TodoList Screenshot](./assets/images/Screenshot.png)
 
----
 
 ## Features
 
@@ -30,7 +28,6 @@ https://dorsa-piraneh.github.io/git-test/
 - **Persistent Storage**: Tasks and selected theme are saved using **LocalStorage**.
 - **Custom Font**: Uses **IRANSans** for better Persian typography.
 
----
 
 ## Installation & Usage
 
@@ -45,7 +42,6 @@ git clone https://github.com/dorsa-piraneh/git-test.git
 ```
 Then open `index.html` in your browser.
 
----
 
 ## Technologies Used
 
@@ -56,12 +52,11 @@ Then open `index.html` in your browser.
 - FontAwesome Icons
 - LocalStorage API
 
----
-
 
 ## Author
 Dorsa Piraneh
 [GitHub](https://github.com/dorsa-piraneh)
+
 
 
 
