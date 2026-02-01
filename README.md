@@ -1,36 +1,51 @@
 # TodoList
+
 A modern **Todo List** application built with **HTML, CSS, and JavaScript**.  
-This project allows users to manage their tasks efficiently with a user-friendly interface and multiple features.
+This project helps users manage their daily tasks with a clean UI and useful features.
+
+## Live Demo
+
+🔗 **View Online:**  
+https://dorsa-piraneh.github.io/git-test/
+
+---
 
 ## Screenshots
 
 ![TodoList Screenshot](./assets/images/Screenshot.png)
 
+---
+
 ## Features
 
-- **Add Tasks**: Users can create new tasks with a title.
-- **Edit Tasks**: Existing tasks can be edited.
-- **Delete Tasks**: Users can delete tasks with confirmation modal.
-- **Mark as Complete**: Tasks can be marked as completed or uncompleted.
-- **Search Tasks**: Real-time search to quickly find tasks.
-- **Filter Tasks**: Filter tasks by all, completed, or pending.
-- **Themes / Color Palette**: Multiple themes to change the appearance of the app.
-- **Responsive Design**: Fully responsive and works on mobile, tablet, and desktop.
-- **SweetAlert2 Integration**: Beautiful alerts for actions like add, edit, delete, and completion.
-- **Persistent Storage**: Tasks and theme preference are saved in **LocalStorage**.
-- **Custom Fonts**: Uses IRANSans font for Persian and numeric characters.
+- **Add Tasks**: Create new tasks easily.
+- **Edit Tasks**: Update task titles.
+- **Delete Tasks**: Remove tasks with a confirmation modal.
+- **Mark as Complete**: Toggle tasks between completed and pending states.
+- **Search Tasks**: Real-time search through tasks.
+- **Filter Tasks**: View all, completed, or pending tasks.
+- **Themes / Color Palette**: Multiple color themes with persistent selection.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop screens.
+- **SweetAlert2 Integration**: User-friendly alerts and confirmations.
+- **Persistent Storage**: Tasks and selected theme are saved using **LocalStorage**.
+- **Custom Font**: Uses **IRANSans** for better Persian typography.
+
+---
 
 ## Installation & Usage
 
-1. Clone or download the repository:
+### Option 1: Run Locally (No Git Required)
+1. Download the project as ZIP.
+2. Extract the files.
+3. Open `index.html` in your browser.
 
-   ```bash
-   git clone https://github.com/your-username/TodoList.git
-   ```
+### Option 2: Clone with Git
+```bash
+git clone https://github.com/dorsa-piraneh/git-test.git
+```
+Then open `index.html` in your browser.
 
-2. Open index.html in your browser.
-
-3. Start adding, editing, or managing your tasks.
+---
 
 ## Technologies Used
 
@@ -40,5 +55,13 @@ This project allows users to manage their tasks efficiently with a user-friendly
 - SweetAlert2
 - FontAwesome Icons
 - LocalStorage API
+
+---
+
+
+## Author
+Dorsa Piraneh
+[GitHub](https://github.com/dorsa-piraneh)
+
 
 
