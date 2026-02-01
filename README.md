@@ -54,8 +54,9 @@ Then open `index.html` in your browser.
 
 
 ## Author
-<p>Dorsa Piraneh</p>
-[GitHub](https://github.com/dorsa-piraneh)
+
+- [@dorsa-piraneh](https://github.com/dorsa-piraneh)
+
 
 
 
